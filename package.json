@@ -1,0 +1,23 @@
+{
+    "name": "base",
+    "version": "1.0.0",
+    "description": "A template for Entry",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve -l 3001"
+    },
+    "keywords": [
+        "html",
+        "css"
+    ],
+    "author": "Ives van Hoorne",
+    "license": "MIT",
+    "devDependencies": {
+        "serve": "11.2.0"
+    },
+    "dependencies": {
+        "@entrylabs/entry": "^4.0.12",
+        "@entrylabs/legacy-video": "^1.0.1",
+        "@entrylabs/tool": "^2.0.4"
+    }
+}
